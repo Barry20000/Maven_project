@@ -1,0 +1,19 @@
+CodeGServiceTest.testGenerateBundle:
+  - bundleFiles: lmao-codeg/lmao-api.xml
+    moduleName: lmao-codeg/lmao-bundle
+    packagePrefix: com.fastjrun.lmao.
+
+CodeGServiceTest.testGenerateAPI:
+  - bundleFiles: lmao-codeg/lmao-api.xml
+    moduleName: lmao-codeg/lmao-api
+    packagePrefix: com.fastjrun.lmao.
+
+CodeGServiceTest.testGenerateClient:
+  - bundleFiles: lmao-codeg/lmao-api.xml
+    moduleName: lmao-codeg/lmao-client
+    packagePrefix: com.fastjrun.lmao.
+
+CodeGServiceTest.testGenerateBundleMock:
+  - bundleFiles: lmao-codeg/lmao-api.xml
+    moduleName: lmao-codeg/lmao-bundle-mock
+    packagePrefix: com.fastjrun.lmao.
